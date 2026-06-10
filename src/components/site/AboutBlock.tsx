@@ -15,19 +15,25 @@ export function AboutBlock() {
               About BrandAssistCo
             </span>
             <h2 className="relative mt-4 font-display text-3xl font-bold sm:text-5xl">
-              Your <span className="text-gradient">brand’s</span> growth partner
+              A founder-led studio from <span className="text-gradient">Mumbai</span>
             </h2>
             <p className="relative mt-4 text-muted-foreground">
-              We’re a boutique digital agency obsessed with helping small businesses
-              compete with — and out-perform — the big brands online. From your first
-              website to your hundredth post, we handle the craft so you can focus on
-              what you do best.
+              Founded by <span className="text-foreground font-medium">Bharat Mali</span>{" "}
+              in Mumbai, BrandAssistCo helps small businesses build a stronger online
+              presence through social media management, content creation, website
+              development, customer support, and practical growth strategies.
+            </p>
+            <p className="relative mt-3 text-muted-foreground">
+              With a background in customer support and a passion for digital marketing,
+              branding, and business growth, we focus on delivering practical, affordable
+              and professional solutions for startups, entrepreneurs, and growing
+              businesses.
             </p>
             <ul className="relative mt-6 space-y-3">
               {[
-                "Senior specialists, no junior hand-offs",
-                "Clear roadmaps, weekly reporting",
-                "Fixed monthly pricing, no surprises",
+                "Founder-led, direct communication — no junior hand-offs",
+                "Practical, affordable solutions built for small businesses",
+                "Customer-focused approach with modern digital tools",
               ].map((f) => (
                 <li key={f} className="flex items-start gap-3 text-sm">
                   <span className="mt-0.5 grid h-5 w-5 place-items-center rounded-full bg-primary/15 text-primary">
@@ -48,17 +54,17 @@ export function AboutBlock() {
 
         <div className="grid gap-4 sm:grid-cols-2">
           {[
-            { k: "5+", v: "Years building brands" },
-            { k: "120+", v: "Happy clients" },
-            { k: "30+", v: "Industries served" },
-            { k: "24/7", v: "Support availability" },
+            { k: "Build", v: "Premium websites & brand presence" },
+            { k: "Grow", v: "Content, social & growth strategies" },
+            { k: "Connect", v: "Customer support that wins loyalty" },
+            { k: "Mumbai", v: "Based in India, serving worldwide" },
           ].map((s, i) => (
             <div
               key={s.v}
               className="rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.05] to-transparent p-6"
               style={{ animationDelay: `${i * 60}ms` }}
             >
-              <div className="font-display text-4xl font-bold text-gradient sm:text-5xl">
+              <div className="font-display text-3xl font-bold text-gradient sm:text-4xl">
                 {s.k}
               </div>
               <div className="mt-2 text-sm text-muted-foreground">{s.v}</div>

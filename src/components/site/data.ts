@@ -19,62 +19,59 @@ export const services: Service[] = [
     icon: Megaphone,
     title: "Social Media Management",
     description:
-      "Strategy, scheduling, community, and analytics that turn followers into customers.",
+      "Consistent presence on Instagram and beyond — strategy, scheduling, community, and reporting tailored to small businesses.",
     features: ["Content calendar", "Community management", "Monthly reports"],
   },
   {
     icon: PenTool,
     title: "Content Creation & Posting",
     description:
-      "Scroll-stopping visuals, reels, and copy crafted for your brand voice.",
-    features: ["Graphics & reels", "Copywriting", "Daily posting"],
+      "On-brand graphics, reels, and copy that capture attention and showcase what makes your business different.",
+    features: ["Graphics & reels", "Copywriting", "Regular posting"],
   },
   {
     icon: Globe,
     title: "Website Development",
     description:
-      "Lightning-fast, SEO-friendly websites that look premium and convert.",
+      "Fast, mobile-first websites that look premium, rank on search, and turn visitors into customers.",
     features: ["Custom design", "Mobile-first", "On-page SEO"],
   },
   {
     icon: Headphones,
     title: "Customer Support Solutions",
     description:
-      "Inbox, DM, and chat support workflows that keep your customers happy.",
+      "Email, chat and DM support workflows built on real customer-support experience — so your customers feel heard.",
     features: ["Live chat setup", "Email & DMs", "Help docs"],
   },
   {
     icon: TrendingUp,
-    title: "Growth Strategies",
+    title: "Small Business Growth Strategies",
     description:
-      "Data-driven roadmaps to attract, convert, and retain more customers.",
-    features: ["Audit & roadmap", "Funnels", "Performance ads"],
+      "Practical, affordable roadmaps to attract more customers, build trust, and grow your business online.",
+    features: ["Audit & roadmap", "Funnels", "Brand growth plan"],
   },
 ];
 
-export const testimonials = [
+export type Principle = {
+  title: string;
+  body: string;
+};
+
+export const principles: Principle[] = [
   {
-    quote:
-      "BrandAssistCo rebuilt our entire online presence in 3 weeks. We doubled our leads in the first month.",
-    name: "Amara Okafor",
-    role: "Founder, Bloom Skincare",
+    title: "Build, Grow & Connect",
+    body: "Our mission is simple — help small businesses build a stronger online presence, grow their audience, and connect with the people who matter.",
   },
   {
-    quote:
-      "The team feels like an extension of ours. Content, support, and the new website all leveled up together.",
-    name: "Daniel Reyes",
-    role: "Owner, Reyes Auto Care",
+    title: "Customer-first communication",
+    body: "Every project is grounded in real customer-support experience. We listen first, then build solutions that actually fit your business.",
   },
   {
-    quote:
-      "Premium quality, very fair pricing. Our Instagram engagement is up 320% since they took over.",
-    name: "Sofia Lindgren",
-    role: "Director, Norden Studio",
+    title: "Practical & affordable",
+    body: "Premium-feeling design, content, and support — priced for startups, entrepreneurs, and growing small businesses.",
   },
   {
-    quote:
-      "Honestly the easiest agency I’ve worked with. Clear strategy, fast execution, beautiful results.",
-    name: "Marcus Bell",
-    role: "CEO, Bell & Co.",
+    title: "Founder-led service",
+    body: "You work directly with Bharat and the BrandAssistCo team. Clear scope, honest timelines, and a partner invested in your growth.",
   },
 ];
