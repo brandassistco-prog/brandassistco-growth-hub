@@ -22,7 +22,7 @@ export function Hero() {
         <div className="mx-auto max-w-4xl text-center">
           <span className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs text-muted-foreground backdrop-blur">
             <Sparkles className="h-3.5 w-3.5 text-primary" />
-            Premium digital partner for small businesses
+            Founder-led digital studio · Mumbai, India
           </span>
 
           <h1
@@ -38,8 +38,8 @@ export function Hero() {
             style={{ animationDelay: "160ms" }}
           >
             Professional websites, social media management, content creation, customer
-            support solutions, and growth strategies designed to help businesses grow
-            online.
+            support solutions, and growth strategies designed to help small businesses
+            build a stronger online presence.
           </p>
 
           <div
@@ -50,14 +50,14 @@ export function Hero() {
               to="/contact"
               className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-primary to-primary-glow px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-[0_14px_40px_-12px_var(--primary)] transition-transform hover:scale-[1.03] sm:w-auto"
             >
-              Book a Free Discovery Call
+              Get in Touch
               <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </Link>
             <Link
-              to="/portfolio"
+              to="/services"
               className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-white/10 bg-white/5 px-6 py-3.5 text-sm font-semibold text-foreground backdrop-blur transition-colors hover:bg-white/10 sm:w-auto"
             >
-              <Play className="h-3.5 w-3.5 fill-current" /> View Our Work
+              <Play className="h-3.5 w-3.5 fill-current" /> Explore Services
             </Link>
           </div>
 
@@ -66,9 +66,9 @@ export function Hero() {
             style={{ animationDelay: "320ms" }}
           >
             {[
-              { k: "120+", v: "Projects shipped" },
-              { k: "98%", v: "Client retention" },
-              { k: "4.9★", v: "Avg. rating" },
+              { k: "5", v: "Core services" },
+              { k: "1:1", v: "Founder-led service" },
+              { k: "24h", v: "Reply window" },
             ].map((s) => (
               <div key={s.v} className="rounded-2xl glass px-3 py-4 text-center">
                 <dt className="font-display text-2xl font-bold text-foreground sm:text-3xl">

@@ -17,11 +17,11 @@ export function CTA() {
           <div className="relative grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
               <h2 className="font-display text-3xl font-bold leading-tight sm:text-5xl">
-                Ready to grow your business?
+                Ready to grow your business online?
               </h2>
               <p className="mt-3 max-w-2xl text-muted-foreground">
-                Book a free 20-minute discovery call. We’ll review your brand and share
-                three quick wins — no strings attached.
+                Send us a message about your business and goals. We'll reply within one
+                business day with a clear, practical next step — no pressure.
               </p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
@@ -29,7 +29,7 @@ export function CTA() {
                 to="/contact"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-primary to-primary-glow px-6 py-3.5 text-sm font-semibold text-primary-foreground shadow-[0_14px_40px_-12px_var(--primary)]"
               >
-                Book a call <ArrowUpRight className="h-4 w-4" />
+                Get in touch <ArrowUpRight className="h-4 w-4" />
               </Link>
               <Link
                 to="/services"

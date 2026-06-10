@@ -1,6 +1,6 @@
-import { Quote, Star } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import { testimonials } from "./data";
+import { principles } from "./data";
 
 export function Testimonials() {
   return (
@@ -11,33 +11,26 @@ export function Testimonials() {
       />
       <div className="mx-auto max-w-7xl px-4">
         <SectionHeading
-          eyebrow="Loved by clients"
-          title={<>Real businesses, <span className="text-gradient">real results</span></>}
+          eyebrow="How we work"
+          title={<>What you can <span className="text-gradient">expect from us</span></>}
+          description="No fake numbers, no inflated promises — just a clear way of working that small businesses can rely on."
         />
 
         <div className="mt-14 grid gap-5 md:grid-cols-2">
-          {testimonials.map((t, i) => (
-            <figure
-              key={t.name}
+          {principles.map((p, i) => (
+            <article
+              key={p.title}
               className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.05] to-transparent p-7"
               style={{ animationDelay: `${i * 80}ms` }}
             >
-              <Quote className="h-8 w-8 text-primary/40" />
-              <blockquote className="mt-4 font-display text-lg leading-relaxed text-foreground/90 sm:text-xl">
-                “{t.quote}”
-              </blockquote>
-              <figcaption className="mt-6 flex items-center justify-between">
-                <div>
-                  <div className="font-semibold">{t.name}</div>
-                  <div className="text-sm text-muted-foreground">{t.role}</div>
-                </div>
-                <div className="flex gap-0.5 text-primary">
-                  {Array.from({ length: 5 }).map((_, k) => (
-                    <Star key={k} className="h-4 w-4 fill-current" />
-                  ))}
-                </div>
-              </figcaption>
-            </figure>
+              <div className="grid h-10 w-10 place-items-center rounded-xl bg-primary/15 text-primary">
+                <Sparkles className="h-4 w-4" />
+              </div>
+              <h3 className="mt-5 font-display text-xl font-bold">{p.title}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                {p.body}
+              </p>
+            </article>
           ))}
         </div>
       </div>
