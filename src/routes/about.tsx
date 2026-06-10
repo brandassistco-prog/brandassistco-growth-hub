@@ -32,9 +32,9 @@ function AboutPage() {
   return (
     <SiteLayout>
       <PageHero
-        eyebrow="About us"
-        title={<>A boutique agency with <span className="text-gradient">enterprise craft</span></>}
-        description="We mix senior strategy, premium design and modern tooling to give small businesses the digital edge they deserve."
+        eyebrow="About BrandAssistCo"
+        title={<>Founder-led digital studio from <span className="text-gradient">Mumbai</span></>}
+        description="Founded by Bharat Mali, BrandAssistCo blends customer-focused communication with modern digital solutions to help small businesses build, grow and connect online."
       />
       <AboutBlock />
       <WhyUs />
