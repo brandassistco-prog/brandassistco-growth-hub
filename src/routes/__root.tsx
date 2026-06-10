@@ -91,6 +91,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:site_name", content: "BrandAssistCo" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "BrandAssistCo — Premium Digital Agency for Small Businesses" },
+      { name: "twitter:title", content: "BrandAssistCo — Premium Digital Agency for Small Businesses" },
+      { name: "description", content: "BrandAssistCo helps small businesses grow online through websites, social media management, content creation, and digital growth strategies." },
+      { property: "og:description", content: "BrandAssistCo helps small businesses grow online through websites, social media management, content creation, and digital growth strategies." },
+      { name: "twitter:description", content: "BrandAssistCo helps small businesses grow online through websites, social media management, content creation, and digital growth strategies." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3a3e98b7-7d08-4fe6-b16e-6391402018ab/id-preview-ca3d1bce--4936a397-d607-4b48-82dc-24b20cfbbe36.lovable.app-1781111635222.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3a3e98b7-7d08-4fe6-b16e-6391402018ab/id-preview-ca3d1bce--4936a397-d607-4b48-82dc-24b20cfbbe36.lovable.app-1781111635222.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
